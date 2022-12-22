@@ -1,1 +1,71 @@
-@import '~bootstrap/scss/bootstrap'
+// @import '~bootstrap/scss/bootstrap';
+@use 'partials/variables' as *;
+@use 'partials/mixin' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.container{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header,
+main,
+footer{
+    justify-content: center;
+}
+
+.sectionone,
+.sectiontwo,
+.sectionthree{
+    width: 100%;
+}
+
+h4,
+a{
+    text-transform: uppercase;
+}
+
+header{
+    height: 95px;
+    display: flex;
+    width: 100%;
+
+    .container{
+      justify-content: space-between;
+
+
+      img{
+      height: 70px;
+      }
+      ul{
+        display: flex;
+        list-style: none;
+        a{
+          text-decoration: none;
+          font-size: 0.8rem;
+          padding: 10px;
+          &:hover,
+          &:active{
+            padding-bottom: 35px;
+            border-bottom: 5px solid $primary-color;
+            color: $primary-color;
+          }
+        }
+      }
+    }
+
+}
