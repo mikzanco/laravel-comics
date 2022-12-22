@@ -17,7 +17,26 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
-Route::get('/non', function(){
-    return view('non');
+Route::get('/film', function(){
 
-})->name('non');
+    return view('movies');
+
+})->name('movies');
+
+Route::get('/fumetti', function(){
+
+    return view('comics');
+
+})->name('comics');
+
+Route::get('/tv', function(){
+
+    return view('tv');
+
+})->name('tv');
+
+Route::get('/personaggi', function(){
+
+    return view('character');
+
+})->name('character');
