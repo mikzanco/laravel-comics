@@ -7,7 +7,7 @@
 
     <!-- Styles -->
     @vite('resources/js/app.js')
-    <title>Laravel Comics</title>
+    <title>Laravel Comics | @yield('title')</title>
 </head>
 <body>
 
