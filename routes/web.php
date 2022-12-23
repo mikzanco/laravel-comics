@@ -40,3 +40,33 @@ Route::get('/personaggi', function(){
     return view('character');
 
 })->name('character');
+
+Route::get('/giochi', function(){
+
+    return view('games');
+
+})->name('games');
+
+Route::get('/collettivo', function(){
+
+    return view('collectibles');
+
+})->name('collectibles');
+
+Route::get('/video', function(){
+
+    return view('videos');
+
+})->name('videos');
+
+Route::get('/fan', function(){
+
+    return view('fans');
+
+})->name('fans');
+
+Route::get('/news', function(){
+
+    return view('news');
+
+})->name('news');
