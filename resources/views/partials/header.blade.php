@@ -10,16 +10,16 @@
 
         <ul>
           <li>
-            <a class="{{ Route::currentRouteName() ===  'Character' ? 'active' : ' '}}" href="{{ route('home') }}">Character</a>
+            <a class="{{ Route::currentRouteName() ===  'Character' ? 'active' : ' '}}" href="{{ route('character') }}">Character</a>
           </li>
           <li>
-            <a class="{{ Route::currentRouteName() ===  'Comics' ? 'active' : ' '}}" href="{{ route('home') }}">Comics</a>
+            <a class="{{ Route::currentRouteName() ===  'Comics' ? 'active' : ' '}}" href="{{ route('comics') }}">Comics</a>
           </li>
           <li>
-            <a class="{{ Route::currentRouteName() ===  'TV' ? 'active' : ' '}}" href="{{ route('home') }}">TV</a>
+            <a class="{{ Route::currentRouteName() ===  'TV' ? 'active' : ' '}}" href="{{ route('tv') }}">TV</a>
           </li>
           <li>
-            <a class="{{ Route::currentRouteName() ===  'Movies' ? 'active' : ' '}}" href="{{ route('home') }}">Movies</a>
+            <a class="{{ Route::currentRouteName() ===  'Movies' ? 'active' : ' '}}" href="{{ route('movies') }}">Movies</a>
           </li>
           <li>
             <a class="{{ Route::currentRouteName() ===  'Games' ? 'active' : ' '}}" href="{{ route('home') }}">Games</a>
