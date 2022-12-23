@@ -3,9 +3,9 @@
 @section('content')
 
     <main class="container">
-        <div class="jumbotron">
+        {{-- <div class="jumbotron">
             <!-- <img src="" alt=""> -->
-        </div>
+        </div> --}}
 
         <div class="container cards">
             <div class="card">
