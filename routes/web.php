@@ -31,6 +31,14 @@ Route::get('/fumetti', function(){
 
 })->name('comics');
 
+Route::get('/dettaglio', function(){
+
+    // $comics= config('db.comics');
+
+    return view('comic_details');
+
+})->name('comic_details');
+
 Route::get('/tv', function(){
 
     return view('tv');
