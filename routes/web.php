@@ -31,7 +31,7 @@ Route::get('/fumetti', function(){
 
 })->name('comics');
 
-Route::get('/dettaglio', function(){
+Route::get('/dettaglio/{id}', function($id){
 
     // $comics= config('db.comics');
 

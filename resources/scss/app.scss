@@ -92,11 +92,16 @@ main{
     .container{
       width: 100%;
       display: block;
+      padding: 0 auto;
     }
 
     .cards{
       display: flex;
       flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+
     }
 }
 
@@ -108,10 +113,17 @@ main{
     min-height: 80px;
     padding: 15px;
     text-align: center;
+    text-decoration: none;
+    color: white;
+    transition: all .4s;
+    &:hover{
+        transform: scale(1.1);
+    }
     &.details {
         margin: auto;
         padding: 40px;
         width: 70%;
+        transform: scale(1);
         h4{
           margin-bottom: 20px;
         }
