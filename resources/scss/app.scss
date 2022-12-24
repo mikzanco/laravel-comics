@@ -108,10 +108,26 @@ main{
     min-height: 80px;
     padding: 15px;
     text-align: center;
-
+    &.details {
+        margin: auto;
+        padding: 40px;
+        width: 70%;
+        h4{
+          margin-bottom: 20px;
+        }
+        p{
+          text-align: justify;
+        }
+    }
 }
 
 
+
+// CARD-DETAILS
+
+.card-details .card{
+    width: 100%;
+}
 
 // FOOTER
 

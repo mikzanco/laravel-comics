@@ -9,10 +9,10 @@
 
             @foreach ($comics as $comic)
 
-                <div class="card">
+                <a href="{{ route('comic_details')}}" class="card">
                     <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
                     <h4>{{$comic['title']}}</h4>
-                </div>
+                </a>
 
             @endforeach
 
