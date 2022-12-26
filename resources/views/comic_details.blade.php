@@ -12,7 +12,7 @@
                 <div class="card details">
                     <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
                     <h4>{{$comic['title']}}</h4>
-                    <p>{{$comic['description']}}</p>
+                    <p>{!! $comic['description'] !!}</p>
                 </div>
 
 
